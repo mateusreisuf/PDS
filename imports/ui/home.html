@@ -1,0 +1,25 @@
+<template name="home">
+
+
+    {{#if currentUser}}
+    <div class='title'><h1>Home Page</h1></div>
+    {{/if}}
+
+    <div class='init'>
+    <ul>
+        {{#if currentUser}}
+         <button><a href="#" class="logout">Logout</a></button>
+      
+        <!--<h1>Faça login</h1>-->
+        {{else}}
+        <p></p>
+        <button><a href="{{pathFor route='register'}}">Register</a></button>
+         <p></p>
+         <button><a href="{{pathFor route='login'}}">Login</a></button>
+         {{/if}}
+    </ul>
+</div>
+
+
+
+</template>

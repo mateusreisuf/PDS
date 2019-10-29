@@ -1,0 +1,37 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import '{}/node_modules/bootstrap/scss/bootstrap';
+
+.reg {
+
+    padding-left: 42%;
+    height: 1000px;
+    width: 1200px;
+    
+}
+
+
+.log {
+ padding-left: 42%;
+ height: 1000px;
+ width: 1200px;
+}
+
+
+
+
+.init{
+    padding-left: 47%;
+}
+
+
+.title{
+    padding-left: 46%;
+}
+
+
+body{
+    background-image: linear-gradient(to right ,rgb(8, 234, 241) , rgb(185, 204, 9));
+
+
+}
